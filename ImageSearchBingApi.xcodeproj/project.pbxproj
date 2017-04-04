@@ -11,6 +11,10 @@
 		01345A921E9452D100CD6983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01345A901E9452D100CD6983 /* Main.storyboard */; };
 		01345A941E9452D100CD6983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01345A931E9452D100CD6983 /* Assets.xcassets */; };
 		01345A971E9452D100CD6983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01345A951E9452D100CD6983 /* LaunchScreen.storyboard */; };
+		01345AA51E94561500CD6983 /* ImageSearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345AA41E94561500CD6983 /* ImageSearchCollectionViewController.swift */; };
+		01345AA71E9456A900CD6983 /* ImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345AA61E9456A900CD6983 /* ImageSearch.swift */; };
+		01345AA91E94591800CD6983 /* ImageSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345AA81E94591800CD6983 /* ImageSearchController.swift */; };
+		01345AAC1E9459A700CD6983 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345AAB1E9459A700CD6983 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		01345A931E9452D100CD6983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01345A961E9452D100CD6983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01345A981E9452D100CD6983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01345AA41E94561500CD6983 /* ImageSearchCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchCollectionViewController.swift; sourceTree = "<group>"; };
+		01345AA61E9456A900CD6983 /* ImageSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearch.swift; sourceTree = "<group>"; };
+		01345AA81E94591800CD6983 /* ImageSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchController.swift; sourceTree = "<group>"; };
+		01345AAB1E9459A700CD6983 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		01345A8B1E9452D100CD6983 /* ImageSearchBingApi */ = {
 			isa = PBXGroup;
 			children = (
+				01345AAA1E94598600CD6983 /* Keys */,
 				01345AA11E94530D00CD6983 /* Model */,
 				01345AA01E94530400CD6983 /* Model Controller */,
 				01345A9F1E9452F800CD6983 /* View Controller */,
@@ -72,6 +81,7 @@
 		01345A9F1E9452F800CD6983 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				01345AA41E94561500CD6983 /* ImageSearchCollectionViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -79,6 +89,7 @@
 		01345AA01E94530400CD6983 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				01345AA81E94591800CD6983 /* ImageSearchController.swift */,
 			);
 			name = "Model Controller";
 			sourceTree = "<group>";
@@ -86,6 +97,7 @@
 		01345AA11E94530D00CD6983 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01345AA61E9456A900CD6983 /* ImageSearch.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -108,6 +120,14 @@
 				01345A951E9452D100CD6983 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		01345AAA1E94598600CD6983 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				01345AAB1E9459A700CD6983 /* Keys.swift */,
+			);
+			name = Keys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01345AA51E94561500CD6983 /* ImageSearchCollectionViewController.swift in Sources */,
+				01345AA71E9456A900CD6983 /* ImageSearch.swift in Sources */,
 				01345A8D1E9452D100CD6983 /* AppDelegate.swift in Sources */,
+				01345AA91E94591800CD6983 /* ImageSearchController.swift in Sources */,
+				01345AAC1E9459A700CD6983 /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +373,7 @@
 				01345A9D1E9452D100CD6983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
